@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="BD Food"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+
+        <!-- Màn hình đăng nhập - điểm vào ứng dụng -->
+        <activity android:name=".LoginActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Đăng ký tài khoản -->
+        <activity android:name=".RegisterActivity" />
+
+        <!-- Quên mật khẩu -->
+        <activity android:name=".ForgotPasswordActivity" />
+
+        <!-- Hồ sơ cá nhân - trung tâm điều hướng -->
+        <activity android:name=".ProfileActivity" />
+
+        <!-- Chỉnh sửa hồ sơ -->
+        <activity android:name=".EditProfileActivity" />
+
+        <!-- Đổi mật khẩu -->
+        <activity android:name=".ChangePasswordActivity" />
+
+        <!-- Sổ địa chỉ -->
+        <activity android:name=".AddressBookActivity" />
+
+        <!-- Form thêm/sửa địa chỉ -->
+        <activity android:name=".AddressFormActivity" />
+
+        <!-- Chọn địa chỉ khi thanh toán -->
+        <activity android:name=".AddressSelectActivity" />
+
+        <!-- Danh sách yêu thích -->
+        <activity android:name=".WishlistActivity" />
+
+    </application>
+</manifest>

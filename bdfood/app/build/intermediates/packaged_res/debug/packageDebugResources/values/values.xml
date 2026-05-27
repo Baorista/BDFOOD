@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="divider">#FFE8E8F0</color>
+    <color name="input_bg">#FFF5F5FA</color>
+    <color name="primary">#FF6200EE</color>
+    <color name="primary_variant">#FF3700B3</color>
+    <color name="secondary">#FF03DAC5</color>
+    <color name="surface">#FFFFFFFF</color>
+    <color name="text_hint">#FF9E9EB8</color>
+    <color name="text_primary">#FF1A1A2E</color>
+    <color name="text_secondary">#FF4A4A68</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">BD Food</string>
+    <string name="firebase_database_url" translatable="false">https://khoga-aa6a3-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">245739455875</string>
+    <string name="google_api_key" translatable="false">AIzaSyB2xZuqEVBfrL4d3EnX2fDH2C7nS2i3Gqw</string>
+    <string name="google_app_id" translatable="false">1:245739455875:android:a5cfc3324a0be0478fe2b6</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB2xZuqEVBfrL4d3EnX2fDH2C7nS2i3Gqw</string>
+    <string name="google_storage_bucket" translatable="false">khoga-aa6a3.firebasestorage.app</string>
+    <string name="project_id" translatable="false">khoga-aa6a3</string>
+    <style name="Theme.MyApplication" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor">@color/primary</item>
+    </style>
+</resources>

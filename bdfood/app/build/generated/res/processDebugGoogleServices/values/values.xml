@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://khoga-aa6a3-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">245739455875</string>
+    <string name="google_api_key" translatable="false">AIzaSyB2xZuqEVBfrL4d3EnX2fDH2C7nS2i3Gqw</string>
+    <string name="google_app_id" translatable="false">1:245739455875:android:a5cfc3324a0be0478fe2b6</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB2xZuqEVBfrL4d3EnX2fDH2C7nS2i3Gqw</string>
+    <string name="google_storage_bucket" translatable="false">khoga-aa6a3.firebasestorage.app</string>
+    <string name="project_id" translatable="false">khoga-aa6a3</string>
+</resources>
